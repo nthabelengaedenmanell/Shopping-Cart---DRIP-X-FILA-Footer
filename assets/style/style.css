@@ -1,0 +1,850 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #080918;
+  font-family: "Viga", sans-serif;
+}
+
+/* Styling for the shoe range */
+.shoe-range {
+  background: #080918;
+  padding: 20px;
+}
+
+/* Styling for the header */
+.header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the shop items */
+.shop-items {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; /* Added */
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 20px;
+}
+
+/* Styling for each shop item */
+.shop-item {
+  width: 40%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 9px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 80px; /* Added */
+}
+
+@media screen and (max-width: 768px) {
+  .shop-item {
+    width: 100%; /* Modified */
+  }
+}
+
+/* Styling for the shoe title */
+.shoeTitle {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Styling for the details div */
+#detailsDiv {
+  margin-top: 25px;
+  padding-top: 30px;
+  border-top: #000000 solid 3px;
+}
+
+/* Styling for the second details div */
+#detailsDiv2 {
+  padding-top: 20px;
+}
+
+/* Styling for the shoe image */
+.shoe-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+/* Styling for the shop item details */
+.shop-item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Styling for the shoe price */
+.shoe-price {
+  font-size: 29px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Styling for the add to cart button */
+.addtocart-btn {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 25px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-size: 23px;
+  transition: background-color 0.3s ease;
+}
+
+.addtocart-btn:hover {
+  background-color: #080918;
+}
+
+/* Styling for the shopping cart */
+.shopping-cart {
+  background-color: #74abd4;
+  padding: 20px;
+  border: 1px solid #ddd;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* Restyling for the header */
+.header {
+  text-align: center;
+}
+
+/* Styling for the row */
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Styling for the column */
+.column {
+  flex-basis: 33.33%;
+}
+
+/* Styling for the shopping cart items */
+.shoppingcartItems {
+  margin-bottom: 20px;
+}
+
+/* Styling for each cart item */
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Styling for the cart item image */
+.cart-item-image {
+  margin-right: 10px;
+}
+
+/* Styling for the cart price */
+.cart-price {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+/* Styling for the cart quantity */
+.cart-quantity {
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for the quantity value */
+.quantityValue {
+  width: 40px;
+  margin-right: 10px;
+}
+
+/* Styling for the remove button */
+.remove-btn {
+  border: none;
+  background-color: #f5f5f5;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Styling for the delivery and cart total */
+.delivery,
+.cart-total {
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for the delivery name and cart total title */
+.delivery-name,
+.cart-total-title {
+  margin-right: 10px;
+}
+
+/* Styling for the checkout button */
+#checkout {
+  border: none;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Styling for the footer */
+footer {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+/* Styling for the footer content */
+footer .cr-con {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  line-height: 25px;
+  font-weight: 500;
+  padding: 1rem 4rem;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Styling for the shoe1Card */
+#shoe1Card {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Styling for the shoe2Card */
+#shoe2Card {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Styling for the heading div */
+.headingDiv {
+  padding: 40px 20px;
+}
+
+/* Styling for the heading */
+.heading {
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 43px;
+  letter-spacing: 1px;
+  margin-bottom: -18px;
+}
+
+/* Styling for the shop heading */
+.shop-heading {
+  text-align: center;
+  align-items: center;
+  color: #080918;
+  font-size: 45px;
+  letter-spacing: 1px;
+  margin-bottom: -18px;
+}
+
+/* Styling for the heading h1 */
+.headingh1 {
+  text-align: center;
+  align-items: center;
+  color: #f95202;
+  font-weight: 900;
+  font-size: 60px;
+  letter-spacing: 0px;
+  margin-bottom: -18px;
+}
+
+/* Styling for the heading h2 */
+.heading-h2 {
+  text-align: center;
+  align-items: center;
+  color: #f95202;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+/* Styling for the heading h2 */
+.headingh2 {
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+/* Styling for buttons */
+button,
+.btn {
+  font-family: inherit;
+}
+
+/* Styling for the navigation */
+nav {
+  border-radius: 20px;
+  margin: 10px;
+  font-family: "Viga", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  background-color: #f5f5f5;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 90px;
+}
+
+/* Styling for the navigation span */
+nav span {
+  color: #f95202;
+}
+
+/* Styling for the navigation paragraph */
+nav p {
+  font-size: 25px;
+  font-weight: 600;
+  cursor: default;
+}
+
+/* Styling for the navigation list items */
+nav li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+/* Styling for the navigation links */
+nav a {
+  text-decoration: none;
+  color: #000000;
+  padding: 0 0.8rem;
+  transition: 0.1s ease-in-out;
+  font-size: 20px;
+}
+
+/* Styling for the cart text */
+#carttext {
+  text-decoration: none;
+  color: #000000;
+  padding: 0 1rem;
+  transition: 0.1s ease-in-out;
+  font-size: 20px;
+}
+
+/* Styling for the navigation links on hover */
+nav a:hover {
+  color: #f95202;
+}
+
+
+nav .btn {
+  padding: 0.5rem 1rem;
+  margin: 0 0 0 0.5rem;
+  border: 2px solid #f95202;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  font-size: 20px;
+}
+
+
+.cart-Icon {
+  background-color: white;
+  color: #f95202;
+}
+
+.cart-Icon:hover {
+  background-color: #f95202;
+  border: 2px solid #f95202;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+#carttext:hover{
+  color: #ffffff;
+}
+
+/* NAVIGATION BAR ENDS */
+
+
+/* MEDIA QUERIES - RESPONSIVE LAYOUT */
+
+/* DESKTOP - LAPTOP - TABLET */
+@media screen and (min-width: 850px){
+  nav .small-screens {
+    display: none;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 850px){
+  nav{
+    padding: 1rem 5vw;
+  }
+  
+  nav .small-screens i{
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  nav .big-screens {
+    display: none;
+  }
+}
+
+#logotext{
+  font-size: 35px;
+  transition: 0.1s ease-in-out;
+  color: #f95202;
+}
+
+
+#hero-banner{
+  margin-left: 10PX;
+  margin-right: 10PX;
+  border-radius: 40PX;
+  border: #ffffff solid 5PX;
+  margin-top: -90px;
+  margin-bottom: 100px;
+  position: relative;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  overflow: hidden;
+  text-align: center;
+
+  
+  #video-box{
+    height: 600px;
+    width: 100%;
+    opacity: .60;
+    
+    filter: grayscale(.99);
+  }
+  
+  video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+}
+
+#hero-content {
+  position: absolute;
+  width: 600px;
+  height: 200px;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: azure;
+}
+
+#hero-banner #hero-button-container {
+  padding: 40px;
+  width: 700px;
+  height: 200px;
+  z-index: 10000;
+  justify-content: center;
+  color: azure;
+  top: 120px;
+  flex-direction: row;
+  width: 400px;
+}
+
+.herop{
+  font-size: 20px;
+}
+
+.hero-paragraph{
+  font-size: 34px;
+  margin-bottom: -15px;
+}
+
+.heroBtn1{
+  font-size: 20px;
+  padding: 10px 25px;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+  border: solid white;
+  margin: 10px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+.heroBtn2{
+  font-size: 20px;
+  padding: 10px 25px;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+  border: solid white;
+  margin: 10px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+}
+
+.heroBtn1:hover{
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: #f95202;
+}
+
+.heroBtn2:hover{
+  border: solid #f95202;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+
+#hero-button{
+  color: #080918;
+}
+
+textarea {
+  resize: none;
+}
+
+.text {
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+white-space: nowrap;
+}
+
+@charset "UTF-8";
+
+.svg-inline--fa {
+vertical-align: -0.200em;
+}
+
+.rounded-social-buttons {
+text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+display: inline-block;
+position: relative;
+cursor: pointer;
+width: 3.125rem;
+height: 3.125rem;
+border: 0.125rem solid transparent;
+padding: 0;
+text-decoration: none;
+text-align: center;
+color: #fefefe;
+font-size: 1.5625rem;
+font-weight: normal;
+line-height: 2em;
+border-radius: 1.6875rem;
+transition: all 0.5s ease;
+margin-right: 0.25rem;
+margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+-webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-tiktok, .fa-youtube, .fa-instagram {
+font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+color: #3b5998;
+background: #fefefe;
+border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+color: #55acee;
+background: #fefefe;
+border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+color: #007bb5;
+background: #fefefe;
+border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.tiktok {
+background: #000000;
+}
+
+.rounded-social-buttons .social-button.tiktok:hover, .rounded-social-buttons .social-button.tiktok:focus {
+color: #000000;
+background: #fefefe;
+border-color: #000000;
+}
+
+.rounded-social-buttons .social-button.youtube {
+background: #bb0000;
+}
+
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+color: #bb0000;
+background: #fefefe;
+border-color: #bb0000;
+}
+
+.rounded-social-buttons .social-button.instagram {
+background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+color: #125688;
+background: #fefefe;
+border-color: #125688;
+}
+
+.footerDiv{
+  padding-top: 60px;
+}
+
+#cart-section{
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.checkout-Btn{
+  padding-top: 20px;
+}
+
+#checkout{
+  padding: 16px 32px;
+  font-size: 18px;
+  border-radius: 30px;
+  background-color: #1c8644;
+  border: solid;
+}
+
+#checkout:hover{
+ background-color: white;
+ color: #1c8644;
+ border: #1c8644 solid;
+}
+
+.shoppingcartItem{
+  font-size: 23px;
+  padding-left: 20px;
+}
+
+.shoppingcartQuantity{
+  font-size: 23px;
+}
+
+.shoppingcartPrice{
+  font-size: 23px;
+}
+
+#shoppingcart-row{
+margin-top: 90px;
+}
+
+.row{
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+#costs-Section{
+  padding: 15px;
+  border-radius: 17px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  margin-right: 700px;
+  padding: 20px 30px;
+}
+
+.cart-total-price{
+  font-size: 30px;
+  font-weight: -100;
+}
+
+.cart-total-title{
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.cart-total{
+  padding-top: 5px;
+  margin-bottom: 20px;
+}
+
+.delivery-price{
+  font-size: 28px;
+  font-weight: -100;
+}
+
+.delivery-name{
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.cartsummary-name{
+  font-size: 32px;
+  color: #1c8644;
+  letter-spacing: 1px;
+}
+
+.checkoutDetails{
+  border-top: #74abd4 solid 3px;
+  padding-top: 15px;
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.checkoutDetails-name{
+  font-size: 23px;
+  color: #4d91da;
+  letter-spacing: 1px;
+}
+
+.cartsummary{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+
+
+.cart-item {
+  position: relative;
+}
+
+.shoeName {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 18px;
+  background-color: #74abd4; /* Optional background color for better visibility */
+  color: white; /* Optional text color */
+  padding: 6px 10px; /* Optional padding */
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-left: 20px;
+  z-index: 1; /* Optional z-index to ensure the title appears on top of the image */
+}
+
+.cart-item-image {
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 60px;
+  width: 200px; /* Adjust the width of the image as desired */
+  height: auto; /* Let the height adjust proportionally */
+  border-radius: 30px;
+  border: #74abd4 solid 4px;
+}
+
+.cart-price{
+  margin-left: 21PX;
+  font-size: 38PX;
+  padding-top: 80PX;
+}
+
+.remove-btn{
+  margin-left: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 25px;
+  color: #ffffff;
+  border: #FF0800 solid 3.2px;
+  background-color: #FF0800;
+}
+
+.remove-btn:hover{
+  color: #FF0800;
+  border: #FF0800 solid 3.2px;
+  background-color: #ffffff;
+}
+
+.quantityValue{
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: #74abd4 solid 2.5px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+
+
+.vat-price{
+  font-size: 28px;
+  font-weight: -100;
+}
+
+.vat-name{
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.vat{
+  padding-top: 5px;
+  margin-bottom: 20px;
+}
+
+#deliveryInfo{
+  background-color: #007bff;
+  margin-bottom: 20px;
+  padding: 20px 25px;
+  border-radius: 30px;  
+  border: solid white 3px;
+  margin-right: 650px;
+}
+
+.info-name{
+  font-size: 22px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+#checkout{
+  font-size: 23px;
+}
+
+.shop-heading{
+  font-size: 55px;
+}
+
