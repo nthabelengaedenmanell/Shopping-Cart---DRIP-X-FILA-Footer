@@ -3,6 +3,7 @@ body {
   padding: 0;
   background: #080918;
   font-family: "Viga", sans-serif;
+  overflow-x: hidden;
 }
 
 /* Styling for the shoe range */
@@ -848,3 +849,143 @@ margin-top: 90px;
   font-size: 55px;
 }
 
+
+#contact {  
+  padding-top: 50px;
+  padding-bottom: 190px;
+  padding-left: 350px;
+  padding-right: 350px;
+  background-color: #F7F7F7;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  font-size: 21px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+width: 600px;
+height: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+
+button[type="submit"] {
+  padding: 10px 30px;
+  font-size: 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.heading-contactus {
+  text-align: center;
+  align-items: center;
+  color: #080918;
+  font-size: 45px;
+  letter-spacing: 1px;
+  margin-bottom: -15px;
+}
+
+.headingh2-contactus {
+  text-align: center;
+  align-items: center;
+  color: #f66200;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+#message{
+  height: 100px;
+}
+
+
+.heading-about {
+  text-align: center;
+  align-items: center;
+  color: #080918;
+  font-size: 45px;
+  letter-spacing: 1px;
+  margin-bottom: -15px;
+}
+
+.headingh2-about {
+  text-align: center;
+  align-items: center;
+  color: #f66200;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+#space{
+padding: 20px;
+}
+
+.about-container {  
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 40px;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 35px;
+  border: solid 5px #f66200;
+}
+
+#aboutus-div{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+iframe{
+  border-radius: 45px;
+  border: solid 5px #080918;
+  background-color: #080918;
+}
+
+.about-text {
+  flex: 1;
+  margin-right: 20px;
+  padding-right: 40px;
+}
+
+.about-text h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+.about-image {
+  flex: 1;
+
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;  
+  border-radius: 40px;
+}
